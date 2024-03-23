@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Color picker lab</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        margin: 0;
+      }
+
+      #colorPicker {
+        margin-bottom: 20px;
+      }
+
+      #colorDisplay {
+        width: 200px;
+        height: 200px;
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      #colorCode {
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Create an input with type 'color' and id 'colorPicker' -->
+    <input type="color" id="colorPicker" />
+
+    <!-- Create a div with id 'colorDisplay' -->
+    <div id="colorDisplay">
+      <p id="colorCode"></p>
+    </div>
+    <!-- Create a p tag with id 'colorCode' inside the div element -->
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+      // jQuery code to handle color change event
+      $(document).ready(function () {
+        $("#colorPicker").change(function () {
+          var selectedColor = $(this).val();
+          $("#colorDisplay").css("background-color", selectedColor);
+          $("#colorCode").text(selectedColor);
+        });
+      });
+    </script>
+  </body>
+</html>
