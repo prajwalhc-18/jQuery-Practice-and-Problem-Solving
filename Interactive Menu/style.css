@@ -1,0 +1,25 @@
+/* styles.css */
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.item {
+    width: 30%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.item:hover {
+    background-color: #f0f0f0;
+}
+
+.item h2 {
+    margin-top: 0;
+}
+
+.description {
+    margin-top: 20px;
+}
