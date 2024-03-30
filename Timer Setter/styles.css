@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.timer-container {
+    text-align: center;
+}
+
+.clock {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 10px solid #3498db; /* Border color for the clock */
+    background-color: #fff; /* Clock background color */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #3498db; /* Text color for the clock */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Shadow effect */
+    transition: border-color 0.3s, color 0.3s; /* Smooth transition for border color and text color */
+}
+
+.clock:hover {
+    border-color: #2980b9; /* Border color on hover */
+    color: #2980b9; /* Text color on hover */
+}
+
+.clock-face {
+    position: relative;
+}
+
+.clock-face span {
+    display: block;
+}
+
+.input-container {
+    margin-top: 20px;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1rem;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 100px;
+}
+
+input[type="number"]:focus {
+    outline: none;
+    border-color: #3498db;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+}
+
+button:hover {
+    background-color: #2980b9; /* Background color on hover */
+}
+
+#resetButton {
+    background-color: #e74c3c; /* Reset button background color */
+}
+
+#resetButton:hover {
+    background-color: #c0392b; /* Reset button background color on hover */
+}
