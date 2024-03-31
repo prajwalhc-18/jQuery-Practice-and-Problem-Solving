@@ -1,75 +1,75 @@
 /* General styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa; /* Light gray background */
-    padding: 20px;
-    color: #333; /* Dark text color */
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 20px;
+  color: #333; /* Dark text color */
 }
 
 h1 {
-    text-align: center;
-    margin-bottom: 20px;
-    font-size: 2rem;
-    color: #007bff; /* Blue color */
-    margin-top: -10px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #007bff; /* Blue color */
+  margin-top: -10px;
 }
 
 input[type="text"] {
-    width: 100%;
-    padding: 10px;
-    font-size: 1rem;
-    margin-bottom: 20px;
-    border: 2px solid #6c757d; /* Gray border */
-    border-radius: 5px;
-    background-color: #e9ecef; /* Light gray background */
-    transition: border-color 0.3s, background-color 0.3s; /* Smooth transition */
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  border: 2px solid #6c757d; /* Gray border */
+  border-radius: 5px;
+  background-color: #e9ecef; /* Light gray background */
+  transition: border-color 0.3s, background-color 0.3s; /* Smooth transition */
 }
 
 input[type="text"]:focus {
-    outline: none;
-    border-color: #007bff; /* Border color on focus (blue) */
-    background-color: #d1e8ff; /* Background color on focus (light blue) */
+  outline: none;
+  border-color: #007bff; /* Border color on focus (blue) */
+  background-color: #d1e8ff; /* Background color on focus (light blue) */
 }
 
 /* Country list styles */
 #country-list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
 }
 
 #country-list li {
-    padding: 15px;
-    margin-bottom: 10px;
-    cursor: pointer;
-    background-color: #fff; /* White background */
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
-    transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
+  padding: 15px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: #fff; /* White background */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Light shadow */
+  transition: background-color 0.3s, transform 0.3s; /* Smooth transition */
 }
 
 #country-list li:hover {
-    background-color: #f1f1f1; /* Light gray background on hover */
-    transform: translateY(-2px); /* Lift on hover */
+  background-color: #f1f1f1; /* Light gray background on hover */
+  transform: translateY(-2px); /* Lift on hover */
 }
 
 /* Country name styles */
 #country-name {
-    display: none; /* Initially hide the country name */
-    font-size: 2rem;
-    margin-top: 20px;
-    color: #333; /* Dark text color */
-    text-align: center;
-    transition: opacity 0.5s; /* Smooth transition */
+  display: none; /* Initially hide the country name */
+  font-size: 2rem;
+  margin-top: 20px;
+  color: #333; /* Dark text color */
+  text-align: center;
+  transition: opacity 0.5s; /* Smooth transition */
 }
 
 /* Responsive styles */
 @media (max-width: 768px) {
-    h1 {
-        font-size: 1.5rem;
-    }
+  h1 {
+    font-size: 1.5rem;
+  }
 
-    input[type="text"] {
-        font-size: 0.9rem;
-    }
+  input[type="text"] {
+    font-size: 0.9rem;
+  }
 }
