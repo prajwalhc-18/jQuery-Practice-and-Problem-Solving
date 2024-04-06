@@ -718,7 +718,26 @@ $(document).ready(function() {
     "Caribbean Sea", "Coral Sea", "East China Sea", "Greenland Sea", "Gulf of Aden", "Gulf of Alaska", "Gulf of California", "Gulf of Finland", "Gulf of Guinea", "Gulf of Mexico",
     "Gulf of Oman", "Gulf of Riga", "Gulf of Thailand", "Hudson Bay", "Indian Ocean", "Ionian Sea", "Irish Sea", "Java Sea", "Kara Sea", "Laptev Sea",
     "Mediterranean Sea", "North Sea", "Norwegian Sea", "Persian Gulf", "Red Sea", "Sea of Japan", "Sea of Okhotsk", "South China Sea", "Sulu Sea", "Tasman Sea",
-    "Tyrrhenian Sea", "Yellow Sea"
+    "Tyrrhenian Sea", "Yellow Sea",
+
+    // Greetings 
+    "Hello", "Hi", "Hey", "Good morning", "Good afternoon", "Good evening", "Good day", "Howdy", "Hola", "Bonjour",
+    "Ciao", "Namaste", "Salaam", "Sawubona", "Konnichiwa", "Guten Tag", "Ni Hao", "Shalom", "Merhaba", "Salut",
+    "Zdravstvuyte", "Hej", "Szia", "Bok", "Dobro jutro", "Dzień dobry", "Kalimera", "As-salamu alaykum", "Sveiki", "Selamat pagi",
+    "Selamat siang", "Selamat sore", "Selamat malam", "Aloha", "Shikamoo", "Kamusta", "Sawatdee", "Privet", "Jambo",
+    "Goeie dag", "Szia", "Nín hǎo", "Ahn nyeong ha sae yo", "Hujambo", "Molo", "Xin chào", "Salām", "Vanakkam",
+    "Sawat dii", "Sain baina uu", "Barev", "Kali mera", "Kumusta", "Dobrý den", "Zdravstvuj", "Namaskāra", "Goddag",
+    "Szia", "Zdravo", "Merhaba", "Talofa", "Moïen", "Nǐn hǎo", "Namaskār", "Kamusta", "Namaskāra", "Asalaam alaikum",
+    "Merhaba", "Nǐ hǎo", "Hola", "Hello", "Hola", "Salve", "Namaskāra", "Olá", "Zdravstvujtye", "Namaskār",
+    "Sawubona", "Konnichiwa", "Aloha", "Selamat datang", "Sannu", "Kwe kwe", "Goeie dag", "Sawubona", "Bonjour", "Hola",
+    "Jambo", "Saluton", "Salut", "Tungjatjeta", "Hello", "Salām", "Kamusta", "Zdravo", "Moïen", "Hallo",
+    "Namaskāra", "Sveiki", "Ahoj", "Hej", "Kamusta", "Salām", "Zdravo", "Hola", "Hujambo", "Bonjour",
+    "Aloha", "Namaskāra", "Sawubona", "Hello", "Goeiedag", "Marhabaan", "Salut", "Tere", "Sawubona", "Hello",
+    "Hej", "Konnichiwa", "Halo", "Hei", "Hello", "Salām", "Szia", "Zdravo", "Merhaba", "Jambo",
+    "Hola", "Sveiki", "Sawubona", "Kamusta", "Hola", "Zdravo", "Namaskār", "Hej", "Sannu", "Hello",
+    "Zdravo", "Salām", "Salve", "Hola", "Hej", "Namaskāra", "Zdravo", "Sawubona", "Hej", "Namaskāra",
+    "Sawubona", "Hej", "Merhaba", "Zdravo", "Hello", "Salām", "Hej", "Zdravo", "Sawubona", "Hej",
+    "Namaskāra", "Sawubona", "Hello", "Salām", "Hej", "Zdravo", "Sawubona", "Namaskāra", "Hola", "Hej"
 
 ];
 
