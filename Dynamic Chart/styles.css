@@ -1,0 +1,38 @@
+/* Style for the container */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style for the input and button */
+  .input-container {
+    margin-bottom: 20px;
+  }
+  
+  #dataInput {
+    padding: 8px;
+    width: 200px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #updateChart {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #updateChart:hover {
+    background-color: #45a049;
+  }
+  
+  /* Style for the chart */
+  #myChart {
+    max-width: 100%;
+    height: auto;
+  }
+  
