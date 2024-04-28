@@ -35,7 +35,8 @@ h2 {
     #33cc33,
     #0066ff,
     #9900cc
-  ); /* Gradient colors *//* Apply gradient as text color */
+  ); /* Gradient colors */
+  -webkit-background-clip: text; /* Apply gradient as text color */
   -webkit-text-fill-color: transparent; /* Make original text color transparent */
 }
 
@@ -75,6 +76,7 @@ li {
     #0066ff,
     #9900cc
   ); /* Gradient colors */
+  -webkit-background-clip: text; /* Apply gradient as text color */
   -webkit-text-fill-color: transparent; /* Make original text color transparent */
   font-size: 24px;
   cursor: pointer;
